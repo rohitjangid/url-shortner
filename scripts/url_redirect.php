@@ -2,15 +2,6 @@
 include "../include/config.php";
 include "../include/Urlshortner.php";
  
-// How are you getting your short code?
- 
-// from framework or front controller using a URL format like
-// http://.example.com/r/X4c
-// $code = $uri_data[1];
- 
-// from the query string using a URL format like
-// http://example.com/r?c=X4c where this file is index.php in the
-// directory http_root/r/index.php
 $shorturl = $_GET["su"];
  
 try 
