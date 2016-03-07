@@ -1,4 +1,4 @@
 RewriteEngine On
 
-RewriteRule ^/manash/index.php/?su=([^/]*)$ [L]
-RewriteRule ^(.*)$ /manash/scripts/url_redirect.php?su=$1 [L,R]
+RewriteRule ^/url-shortner/index.php/?su=([^/]*)$ [L]
+RewriteRule ^(.*)$ /url-shortner/scripts/url_redirect.php?su=$1 [L,R]
